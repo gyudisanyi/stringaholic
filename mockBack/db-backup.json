@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Sanyi",
+      "password_hash": "asdf",
+      "email": "a@b.c",
+      "balance": 1234
+    },
+    {
+      "id": 2,
+      "username": "Manyi",
+      "password_hash": "asdf",
+      "email": "b@c.d",
+      "balance": 45
+    },
+    {
+      "id": 3,
+      "username": "Hanyi",
+      "password_hash": "asdf",
+      "email": "c@d.e",
+      "balance": 16542
+    },
+    {
+      "id": 4,
+      "username": "Danyi",
+      "password_hash": "asdf",
+      "email": "d@e.f",
+      "balance": 45777
+    },
+    {
+      "id": 5,
+      "username": "Kanyi",
+      "password_hash": "asdf",
+      "email": "e@f.g",
+      "balance": 0
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Theorbo",
+      "description": "Multiscale goodness",
+      "photo_url": "https://muzikhausberlin.de/pub/media/catalog/product/cache/380ef1abc4fabf9f6ebf03f3760e1c3d/m/u/muzikkon_theorbo_bass_lute_medium_rosewood_3__1.jpg",
+      "start_price": 55,
+      "buy_price": 140,
+      "sold": "no"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "name": "Rebec",
+      "description": "With linen gig bag and bow",
+      "photo_url": "https://lh3.googleusercontent.com/proxy/viyvKQKiMOE2avuK2mBHuaBHO4axMSu812zMO_PtQqQAmTDVzE9rWT5iNRyMI6TAsdiAVtv8fGOs8Lq0AkT5QAhqUPx09SCtCq6oE0c",
+      "start_price": 155,
+      "buy_price": 340,
+      "sold": "2020.11.18."
+    },
+    {
+      "user_id": 3,
+      "name": "Bass viola",
+      "description": "Contrabbassssssosaurus",
+      "photo_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/503929/1024338/main-image",
+      "start_price": 5,
+      "buy_price": 400,
+      "sold": "no",
+      "id": 3
+    },
+    {
+      "user_id": "3",
+      "name": "Hurdy Gurdy",
+      "description": "Nyenyere",
+      "photo_url": "https://www.harpkit.com/mm5/graphics/00000001/hurdfin001_400x400.jpg",
+      "start_price": 25,
+      "buy_price": 300,
+      "sold": "no",
+      "id": 4
+    },
+    {
+      "user_id": "3",
+      "name": "Kora",
+      "description": "West Africa",
+      "photo_url": "https://www.africandrumming.com.au/wp-content/uploads/2019/11/kora-007-Kumasi-i.jpg",
+      "start_price": 25,
+      "buy_price": 300,
+      "sold": "no",
+      "id": 5
+    },
+    {
+      "user_id": "1",
+      "name": "Tar",
+      "description": "Iran",
+      "photo_url": "https://goirantours.com/wp-content/uploads/2019/01/One-of-the-traditional-Persian-musical-instruments-Tar.jpg",
+      "start_price": 25,
+      "buy_price": 300,
+      "sold": "no",
+      "id": 6
+    },
+    {
+      "user_id": "1",
+      "name": "Citera",
+      "description": "Transdanubian 'Chubby'",
+      "photo_url": "https://musicmall.hu/16330/tenor-citera-dunantuli-hasas.jpg",
+      "start_price": 25,
+      "buy_price": 300,
+      "sold": "no",
+      "id": 7
+    },
+    {
+      "user_id": "1",
+      "name": "Bass tamboura",
+      "description": "Bizojnski",
+      "photo_url": "https://bizonjskitamburasi.files.wordpress.com/2013/04/berde.jpg",
+      "start_price": 125,
+      "buy_price": 200,
+      "sold": "no",
+      "id": 8
+    },
+    {
+      "user_id": "4",
+      "name": "Fender Aerodyne",
+      "description": "PJ bass Made in Japan",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0092/3323/6046/products/Fender-AerodyneJazzBass-Black_Compressed_grande.png?v=1558207167",
+      "start_price": 125,
+      "buy_price": 200,
+      "sold": "no",
+      "id": 9
+    }
+  ],
+  "bids": [
+    {
+      "id": 1,
+      "item_id": 1,
+      "user_id": 3,
+      "value": 76,
+      "closed": "no"
+    },
+    {
+      "id": 2,
+      "item_id": 3,
+      "user_id": 2,
+      "value": 24,
+      "closed": "no"
+    },
+    {
+      "id": 3,
+      "item_id": 2,
+      "user_id": 3,
+      "value": 420,
+      "closed": "2020-11-18"
+    }
+  ]
+}

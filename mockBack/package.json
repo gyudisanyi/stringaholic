@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch ./db.json",
+    "start-auth": "node server.js"
+  }
+}

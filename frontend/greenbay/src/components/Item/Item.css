@@ -1,0 +1,25 @@
+.item {
+  display: inline-block;
+  margin: 0 0 .5em;
+  width: 92%;
+  padding: 3%;
+  border: 1px solid rgb(128, 145, 52);
+  border-radius: .2em;
+  background-color: white;
+}
+
+.sold {
+  font-weight: 900;
+}
+
+.itemPhoto {
+  max-width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .item {
+    padding: 5%;
+    width: 90%;
+  }
+}

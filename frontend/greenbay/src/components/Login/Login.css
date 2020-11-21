@@ -1,0 +1,28 @@
+#loginform input{
+  height: 1.5em;
+  width: 8em;
+  margin-left: .5em;
+}
+
+#user {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 4em;
+}
+
+#hello {
+  color: white;
+  font-weight: 500;
+  margin-right: .5em;
+}
+
+#balance {
+  margin-bottom: .5em;
+}
+
+#balance span{
+  color: white;
+  font-size: 2em;
+  font-family: 'Berkshire swash';
+}

@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Sanyi",
+      "password": "asdf",
+      "email": "a@b.c",
+      "balance": 1234
+    },
+    {
+      "id": 2,
+      "username": "Manyi",
+      "password": "asdf",
+      "email": "b@c.d",
+      "balance": 45
+    },
+    {
+      "id": 3,
+      "username": "Hanyi",
+      "password": "asdf",
+      "email": "c@d.e",
+      "balance": 16542
+    },
+    {
+      "id": 4,
+      "username": "Danyi",
+      "password": "asdf",
+      "email": "d@e.f",
+      "balance": 45777
+    },
+    {
+      "id": 5,
+      "username": "Kanyi",
+      "password": "asdf",
+      "email": "e@f.g",
+      "balance": 0
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Theorbo",
+      "description": "Multiscale goodness",
+      "photo_url": "https://muzikhausberlin.de/pub/media/catalog/product/cache/380ef1abc4fabf9f6ebf03f3760e1c3d/m/u/muzikkon_theorbo_bass_lute_medium_rosewood_3__1.jpg",
+      "buy_price": 140,
+      "sold": "no"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "name": "Rebec",
+      "description": "With linen gig bag and bow",
+      "photo_url": "https://i.pinimg.com/originals/54/cf/5a/54cf5ac4bcd4e7bf796dec960982910f.jpg",
+      "buy_price": 340,
+      "sold": "2020.11.18."
+    },
+    {
+      "user_id": 3,
+      "name": "Bass viol",
+      "description": "Gambasaurus",
+      "photo_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/503929/1024338/main-image",
+      "buy_price": 400,
+      "sold": "no",
+      "id": 3
+    },
+    {
+      "user_id": 4,
+      "name": "Hurdy Gurdy",
+      "description": "Nyenyere, nyennyere-nyennyere-nyennyere",
+      "photo_url": "https://www.harpkit.com/mm5/graphics/00000001/hurdfin001_400x400.jpg",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 4
+    },
+    {
+      "user_id": 2,
+      "name": "Kora",
+      "description": "Small kora from West Africa. Otherwordly harp sounds. Good luck tuning it.",
+      "photo_url": "https://www.africandrumming.com.au/wp-content/uploads/2019/11/kora-007-Kumasi-i.jpg",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 5
+    },
+    {
+      "user_id": 2,
+      "name": "Tar",
+      "description": "Mulberry wood body and goat skin membranes, from Iran as it should be.",
+      "photo_url": "https://goirantours.com/wp-content/uploads/2019/01/One-of-the-traditional-Persian-musical-instruments-Tar.jpg",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 6
+    },
+    {
+      "user_id": 5,
+      "name": "Citera",
+      "description": "Transdanubian 'Chubby' zyther",
+      "photo_url": "https://musicmall.hu/16330/tenor-citera-dunantuli-hasas.jpg",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 7
+    },
+    {
+      "user_id": 3,
+      "name": "Bass tamboura",
+      "description": "Bizojnski bass tamboura with bag and a dozen picks.",
+      "photo_url": "https://bizonjskitamburasi.files.wordpress.com/2013/04/berde.jpg",
+      "buy_price": 200,
+      "sold": "no",
+      "id": 8
+    },
+    {
+      "user_id": 4,
+      "name": "Fender Aerodyne",
+      "description": "PJ bass Made in Japan. This is the only electric bass you'll ever need (doesn't mean you're not going to buy more).",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0092/3323/6046/products/Fender-AerodyneJazzBass-Black_Compressed_grande.png?v=1558207167",
+      "buy_price": 200,
+      "sold": "no",
+      "id": 9
+    },
+    {
+      "user_id": 1,
+      "name": "Viola d'amore",
+      "description": "Isn't she lovely? Straight from Italia, with (a) period bow.",
+      "photo_url": "https://mimo-international.com/mimo/image.ashx?q=http://www.mimo-international.com/media/MINIM/CALMG/IMAGE/45cc27d1a297c7983c2136c2fe1caae9.jpg",
+      "buy_price": 200,
+      "sold": "2020.11.15.",
+      "id": 10
+    },
+    {
+      "user_id": 5,
+      "name": "Xalam",
+      "description": "One of the direct ancestors of banjo coming up handmade from Sénégal, West Africa.",
+      "photo_url": "https://alchetron.com/cdn/xalam-948ffa16-f517-4082-98f7-5e205a8ca7a-resize-750.jpeg",
+      "buy_price": 200,
+      "sold": "no",
+      "id": 11
+    },
+    {
+      "user_id": 5,
+      "name": "Gardony",
+      "description": "Percussive string instrument once popular all over Europe, now used traditionally only in Hungarian communities of Gyimes. With linen gig bag and stick and garlic to take care of gut strings and keep vampires away. And spinach.",
+      "photo_url": "https://i2.wp.com/operencia.com/wp-content/uploads/2010/10/gardon_utovel.gif?fit=953%2C1158",
+      "buy_price": 340,
+      "sold": "no",
+      "id": 12
+    },
+    {
+      "user_id": 5,
+      "name": "Octobass",
+      "description": "Shipping impossible, sorry, for the price you're buying the right to come and touch it.",
+      "photo_url": "https://www.osm.ca/wp-content/uploads/octobasse-1.jpg",
+      "buy_price": 3400,
+      "sold": "2020.11.17.",
+      "id": 13
+    },
+    {
+      "user_id": 5,
+      "name": "Karadeniz kemençe",
+      "description": "Black Sea type Turkish kemençe/gadulka with bow and bag.",
+      "photo_url": "https://www.ethnicmusical.com/wp-content/uploads/2019/05/BSK-C-J-Professional-Turkish-Karadeniz-Kemence-Cherry-wood-Jack-by-Orhan-Osman.jpg",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Modern"
+    },
+    {
+      "category": "Period",
+      "id": 2
+    },
+    {
+      "category": "Folk",
+      "id": 3
+    }
+  ]
+}
