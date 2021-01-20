@@ -1,18 +1,69 @@
 #itemsfield {
-  padding: 1%;
+  padding: 0;
   column-count: 5;
-  column-gap: 1%;
-  width: 97%;
-  background-color: burlywood;
+  column-gap: 0;
+  width: 100%;
+  background: rgb(0,102,111);
+  background: linear-gradient(356deg, rgba(0,102,111,1) 0%, rgba(1,122,132,1) 16%, rgba(87,60,0,1) 100%);
 }
 
-@media screen and (max-width: 1200px) {
+.filterBox {
+  position: fixed;
+  z-index: 9999;
+  top: 5em;
+  width: 100%;
+  left: 0;
+  display: flex;
+  cursor: default;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(212, 233, 240);
+  border-top: 1px solid seagreen;
+  border-bottom: 1px solid seagreen;
+}
+
+.filterBox .tag {
+  background-color: ivory;
+  min-width: 5em;
+  padding-right: 1em;
+  padding-left: .5em;
+  font-weight: 900;
+}
+
+.filterbox form {
+  display: inline-block;
+}
+
+.filterBox input {
+  outline: none;
+  border: 0;
+  max-width: 12em;
+}
+
+.filterBox label {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1340px) {
   #itemsfield {
     column-count: 3;
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #itemsfield {
+    column-count: 2;
+  }
+}
+
 @media screen and (max-width: 800px) {
+  .filterBox {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
   #itemsfield {
     padding: 0;
     width: 100%;

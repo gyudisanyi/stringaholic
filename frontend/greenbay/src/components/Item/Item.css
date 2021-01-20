@@ -1,25 +1,89 @@
 .item {
   display: inline-block;
-  margin: 0 0 .5em;
-  width: 92%;
-  padding: 3%;
-  border: 1px solid rgb(128, 145, 52);
-  border-radius: .2em;
+  overflow-x: hidden;
+  margin: 1%;
+  max-width: 88%;
+  padding: 2% 4%;
+  border-bottom: 1em solid cadetblue;
+  border-radius: 0 2em 0 0;
   background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+.item:hover {
+  border-bottom: 1em solid gold;
+  border-radius: 0 3em 3em 3em;
+}
+
+.item h3 {
+  background: honeydew;
+  padding: .5em;
+  margin: -5%;
+  margin-bottom: -1.25em;
+  width: 110%;
+}
+
+.item .seller a {
+  text-decoration: none;
+  color: honeydew;
+  background-color: rosybrown;
+  padding: .25em;
+  border-radius: 1em;
+}
+
+.item .seller a:hover {
+  text-decoration: none;
+  color: honeydew;
+  background-color: hotpink;
+  padding: .25em;
+  border-radius: 1em;
+}
+
+.item .category {
+  width: 110%;
+  margin-left: -6%;
+  padding-left: 1em;
+}
+
+.modern {
+  background: coral
+}
+
+.historic {
+  background: tan
+}
+
+.folk {
+  background: darkkhaki
 }
 
 .sold {
   font-weight: 900;
 }
 
+.description {
+  max-width: 75%;
+  line-height: 1.25;
+  background-color: azure;
+}
+
 .itemPhoto {
   max-width: 100%;
   margin: auto;
+  max-height: 550px;
 }
 
-@media screen and (max-width: 800px) {
-  .item {
+
+@media screen and (max-width: 640px) {
+  .item, .item:hover {
     padding: 5%;
-    width: 90%;
+    width: 88%;
+    border-radius: 0;
+  }
+
+  .item img{
+    display: inline-block;
+    max-height: 250px;
   }
 }

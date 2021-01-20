@@ -22,10 +22,12 @@ function Login() {
     
     try {
       const data = await generalFetch('auth/login', 'POST', body);
+      console.log(data)
       if (data.access_token && data.username && data.balance) {
         localStorage.setItem('token', data.access_token);
         localStorage.setItem('username', data.username);
         localStorage.setItem('balance', data.balance);
+        localStorage.setItem('userId', data.userId);
       }
       const users = await generalFetch('users', 'GET');
       localStorage.setItem('users', JSON.stringify(users))

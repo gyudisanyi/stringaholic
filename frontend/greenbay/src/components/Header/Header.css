@@ -1,8 +1,14 @@
 #header h1 {
-  color:gold;
+  margin-left: 0;
+  color:rgb(255, 255, 255);
   text-shadow: 0pt 0pt 10pt greenyellow;
+}
+
+#header a {
+  text-decoration: none;
 }
 
 #login {
   margin: .5em;
+  cursor: default;
 }

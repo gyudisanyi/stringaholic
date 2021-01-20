@@ -5,7 +5,7 @@
       "username": "Sanyi",
       "password": "asdf",
       "email": "a@b.c",
-      "balance": 1234
+      "balance": 0
     },
     {
       "id": 2,
@@ -19,21 +19,21 @@
       "username": "Hanyi",
       "password": "asdf",
       "email": "c@d.e",
-      "balance": 16542
+      "balance": 13942
     },
     {
       "id": 4,
       "username": "Danyi",
       "password": "asdf",
       "email": "d@e.f",
-      "balance": 45777
+      "balance": 49077
     },
     {
       "id": 5,
       "username": "Kanyi",
       "password": "asdf",
       "email": "e@f.g",
-      "balance": 0
+      "balance": 12000
     }
   ],
   "items": [
@@ -41,7 +41,8 @@
       "id": 1,
       "user_id": 1,
       "name": "Theorbo",
-      "description": "Multiscale goodness",
+      "description": "Multiscale goodness!",
+      "category": 2,
       "photo_url": "https://muzikhausberlin.de/pub/media/catalog/product/cache/380ef1abc4fabf9f6ebf03f3760e1c3d/m/u/muzikkon_theorbo_bass_lute_medium_rosewood_3__1.jpg",
       "buy_price": 140,
       "sold": "no"
@@ -51,32 +52,36 @@
       "user_id": 2,
       "name": "Rebec",
       "description": "With linen gig bag and bow",
+      "category": 2,
       "photo_url": "https://i.pinimg.com/originals/54/cf/5a/54cf5ac4bcd4e7bf796dec960982910f.jpg",
       "buy_price": 340,
       "sold": "2020.11.18."
     },
     {
-      "user_id": 3,
+      "user_id": 1,
       "name": "Bass viol",
       "description": "Gambasaurus",
+      "category": 2,
       "photo_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/503929/1024338/main-image",
       "buy_price": 400,
       "sold": "no",
       "id": 3
     },
     {
-      "user_id": 4,
+      "user_id": 1,
       "name": "Hurdy Gurdy",
       "description": "Nyenyere, nyennyere-nyennyere-nyennyere",
+      "category": 3,
       "photo_url": "https://www.harpkit.com/mm5/graphics/00000001/hurdfin001_400x400.jpg",
       "buy_price": 300,
       "sold": "no",
       "id": 4
     },
     {
-      "user_id": 2,
+      "user_id": 1,
       "name": "Kora",
       "description": "Small kora from West Africa. Otherwordly harp sounds. Good luck tuning it.",
+      "category": 3,
       "photo_url": "https://www.africandrumming.com.au/wp-content/uploads/2019/11/kora-007-Kumasi-i.jpg",
       "buy_price": 300,
       "sold": "no",
@@ -86,17 +91,19 @@
       "user_id": 2,
       "name": "Tar",
       "description": "Mulberry wood body and goat skin membranes, from Iran as it should be.",
+      "category": 3,
       "photo_url": "https://goirantours.com/wp-content/uploads/2019/01/One-of-the-traditional-Persian-musical-instruments-Tar.jpg",
       "buy_price": 300,
       "sold": "no",
       "id": 6
     },
     {
-      "user_id": 5,
+      "user_id": 1,
       "name": "Citera",
       "description": "Transdanubian 'Chubby' zyther",
+      "category": 3,
       "photo_url": "https://musicmall.hu/16330/tenor-citera-dunantuli-hasas.jpg",
-      "buy_price": 300,
+      "buy_price": 12000,
       "sold": "no",
       "id": 7
     },
@@ -104,15 +111,17 @@
       "user_id": 3,
       "name": "Bass tamboura",
       "description": "Bizojnski bass tamboura with bag and a dozen picks.",
+      "category": 3,
       "photo_url": "https://bizonjskitamburasi.files.wordpress.com/2013/04/berde.jpg",
       "buy_price": 200,
       "sold": "no",
       "id": 8
     },
     {
-      "user_id": 4,
-      "name": "Fender Aerodyne",
+      "user_id": 1,
+      "name": "Fender Aerodyne JB",
       "description": "PJ bass Made in Japan. This is the only electric bass you'll ever need (doesn't mean you're not going to buy more).",
+      "category": 1,
       "photo_url": "https://cdn.shopify.com/s/files/1/0092/3323/6046/products/Fender-AerodyneJazzBass-Black_Compressed_grande.png?v=1558207167",
       "buy_price": 200,
       "sold": "no",
@@ -122,6 +131,7 @@
       "user_id": 1,
       "name": "Viola d'amore",
       "description": "Isn't she lovely? Straight from Italia, with (a) period bow.",
+      "category": 2,
       "photo_url": "https://mimo-international.com/mimo/image.ashx?q=http://www.mimo-international.com/media/MINIM/CALMG/IMAGE/45cc27d1a297c7983c2136c2fe1caae9.jpg",
       "buy_price": 200,
       "sold": "2020.11.15.",
@@ -131,6 +141,7 @@
       "user_id": 5,
       "name": "Xalam",
       "description": "One of the direct ancestors of banjo coming up handmade from Sénégal, West Africa.",
+      "category": 3,
       "photo_url": "https://alchetron.com/cdn/xalam-948ffa16-f517-4082-98f7-5e205a8ca7a-resize-750.jpeg",
       "buy_price": 200,
       "sold": "no",
@@ -139,7 +150,8 @@
     {
       "user_id": 5,
       "name": "Gardony",
-      "description": "Percussive string instrument once popular all over Europe, now used traditionally only in Hungarian communities of Gyimes. With linen gig bag and stick and garlic to take care of gut strings and keep vampires away. And spinach.",
+      "description": "Percussive string instrument once popular all over Europe, now used traditionally only in Hungarian communities of Gyimes. With linen gig bag and stick and some garlic, for weekly gut string care and as a vampire repellent. And to cook spinach with.",
+      "category": 3,
       "photo_url": "https://i2.wp.com/operencia.com/wp-content/uploads/2010/10/gardon_utovel.gif?fit=953%2C1158",
       "buy_price": 340,
       "sold": "no",
@@ -149,6 +161,7 @@
       "user_id": 5,
       "name": "Octobass",
       "description": "Shipping impossible, sorry, for the price you're buying the right to come and touch it.",
+      "category": 1,
       "photo_url": "https://www.osm.ca/wp-content/uploads/octobasse-1.jpg",
       "buy_price": 3400,
       "sold": "2020.11.17.",
@@ -158,10 +171,41 @@
       "user_id": 5,
       "name": "Karadeniz kemençe",
       "description": "Black Sea type Turkish kemençe/gadulka with bow and bag.",
+      "category": 3,
       "photo_url": "https://www.ethnicmusical.com/wp-content/uploads/2019/05/BSK-C-J-Professional-Turkish-Karadeniz-Kemence-Cherry-wood-Jack-by-Orhan-Osman.jpg",
       "buy_price": 300,
       "sold": "no",
       "id": 14
+    },
+    {
+      "user_id": 4,
+      "name": "Chapman stick",
+      "description": "Hammer-on / tapping extreme",
+      "category": 1,
+      "photo_url": "https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/30656319_10160352889210327_2925671944680374272_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=Hg4mFCokEHIAX_IwFki&_nc_ht=scontent-vie1-1.xx&oh=5db65e0d7e246d765e71df5f79056767&oe=5FDF7AE7",
+      "buy_price": 300,
+      "sold": "no",
+      "id": 15
+    },
+    {
+      "user_id": 3,
+      "name": "Suitbase travel bass",
+      "description": "Removable neck and parts fit inside the body through a service door in the back of the instrument. Then pop it in the shapely backpack provided. Mount in 3 minutes! Full, round, woody double bass tone, surprising volume. Bridge-mounted piezo system with preamp. Finally a travel bass that doesn't look like a malformed upright!",
+      "category": 1,
+      "photo_url": "https://suitbase.com/wp-content/uploads/2017/09/Front-totaal.jpg",
+      "buy_price": 3000,
+      "sold": "no",
+      "id": 16
+    },
+    {
+      "user_id": 1,
+      "name": "Fender Aerodyne Tele",
+      "category": 1,
+      "description": "Elegant like a vampire",
+      "photo_url": "https://c1.zzounds.com/media/productmedia/fit,2018by3200/quality,85/0256600306v1_hi-a4459b96109258b2b11331e0e51cb648.jpg",
+      "buy_price": 1300,
+      "sold": "no",
+      "id": 17
     }
   ],
   "categories": [
@@ -170,7 +214,7 @@
       "category": "Modern"
     },
     {
-      "category": "Period",
+      "category": "Historic",
       "id": 2
     },
     {

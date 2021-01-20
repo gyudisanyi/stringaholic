@@ -11,7 +11,6 @@ const userdb = JSON.parse(readFileSync('./db.json', 'UTF-8'))
 
 server.use(bodyParser.json())
 server.use(bodyParser.urlencoded({ extended: true }))
-
 server.use(defaults());
 
 const SECRET_KEY = '123456789'
@@ -38,10 +37,11 @@ server.post('/auth/login', (req, res) => {
     return
   }
   const access_token = createToken({email, password})
-  let id = userdb.users.findIndex(user => user.email == email)
-  let username = userdb.users[id].username
-  let balance = userdb.users[id].balance
-  res.status(200).json({username, balance, access_token})
+  let ind = userdb.users.findIndex(user => user.email == email)
+  let username = userdb.users[ind].username
+  let balance = userdb.users[ind].balance
+  let userId = userdb.users[ind].id
+  res.status(200).json({username, balance, access_token, userId})
 })
 
 server.use(/^(?!\/auth).*$/,  (req, res, next) => {
